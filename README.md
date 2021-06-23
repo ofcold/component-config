@@ -15,10 +15,10 @@ composer require ofcold/component-config
 $config = new Ofcold\Component\Config\Repository
 
 // Set initial configuration items
-$config->addNamespace('your-path');
+$config->addNamespace('your-config-path');
 
 // Add a namespace to configuration.
-$config->addNamespace(__DIR__ '/your-path/foo', 'user');
+$config->addNamespace(__DIR__ '/your-path/config', 'user');
 
 // Get a config item.
 $config->get('foo');
