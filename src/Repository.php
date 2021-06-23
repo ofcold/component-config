@@ -6,7 +6,6 @@ use ArrayAccess;
 use Illuminate\Contracts\Config\Repository as RepositoryInterface;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
-use Ofcold\Component\Support\DirectoryFiles;
 use SplFileInfo;
 
 class Repository implements ArrayAccess, RepositoryInterface
