@@ -12,7 +12,7 @@ composer require ofcold/component-config
 
 ```php
 
-$config = new Promise\Component\Config\Repository
+$config = new Ofcold\Component\Config\Repository
 
 // Set initial configuration items
 $config->addNamespace('your-path');
