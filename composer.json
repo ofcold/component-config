@@ -1,5 +1,5 @@
 {
-	"name": "ofcold/config-component",
+	"name": "ofcold/component-config",
 	"description": "Manage Ofcold configuration by persistent storage.",
 	"license": "MIT",
 	"homepage": "https://ofcold.com",
